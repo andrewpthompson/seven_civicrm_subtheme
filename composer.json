@@ -1,0 +1,11 @@
+{
+  "name": "andrewpthompson/seven_civicrm_subtheme",
+  "description": "Drupal Seven subtheme with a handful of fixes for CiviCRM administration pages",
+  "type": "drupal-theme",
+  "license": "GPL-2.0-or-later",
+  "homepage": "https://github.com/andrewpthompson/seven_civicrm_subtheme",
+  "authors": [{
+    "name": "Andrew Thompson",
+    "email": "andrew.thompson@prr.org.au"
+  }]
+}
