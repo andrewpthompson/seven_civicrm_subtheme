@@ -2,6 +2,7 @@ name: "Seven subtheme for CiviCRM admin improvements"
 type: theme
 description: 'Drupal Seven subtheme with a handful of fixes for CiviCRM administration pages'
 core: 8.x
+core_version_requirement: ^8 || ^9
 base theme: seven
 screenshot: images/screenshot.png
 libraries:
