@@ -1,0 +1,22 @@
+uuid: 161b9192-63c4-4a30-b5f8-e2905094323d
+langcode: en
+status: true
+dependencies:
+  theme:
+    - seven_civicrm_subtheme
+_core:
+  default_config_hash: qHdtze2DZ2mFfaJadxjZz6epm92_SN9SAFY4yJGl8Fo
+id: seven_civicrm_subtheme_local_tasks
+theme: seven_civicrm_subtheme
+region: header
+weight: -8
+provider: null
+plugin: local_tasks_block
+settings:
+  id: local_tasks_block
+  label: Tabs
+  provider: core
+  label_display: '0'
+  primary: true
+  secondary: true
+visibility: {  }

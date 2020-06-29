@@ -1,0 +1,20 @@
+uuid: 6ac0722f-71c3-4830-badb-9d6641464166
+langcode: en
+status: true
+dependencies:
+  theme:
+    - seven_civicrm_subtheme
+_core:
+  default_config_hash: 1TQP4b3ZnlzvIH9bj6cpCz_SyUHdJjLQkZnHpikjjhw
+id: seven_civicrm_subtheme_page_title
+theme: seven_civicrm_subtheme
+region: content
+weight: -7
+provider: null
+plugin: page_title_block
+settings:
+  id: page_title_block
+  label: 'Page title'
+  provider: core
+  label_display: '0'
+visibility: {  }

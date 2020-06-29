@@ -1,0 +1,22 @@
+uuid: 9ccbfa0c-fd40-427c-90d0-11a6f619db06
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seven_civicrm_subtheme
+_core:
+  default_config_hash: wDR9JKEATSWldBjw8du8s3G2zjEYeQf88nlld11hMLo
+id: seven_civicrm_subtheme_breadcrumbs
+theme: seven_civicrm_subtheme
+region: breadcrumb
+weight: -7
+provider: null
+plugin: system_breadcrumb_block
+settings:
+  id: system_breadcrumb_block
+  label: Breadcrumbs
+  provider: system
+  label_display: '0'
+visibility: {  }

@@ -1,0 +1,22 @@
+uuid: a00d5b20-9b71-4c87-862e-7f105a06e618
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - seven_civicrm_subtheme
+_core:
+  default_config_hash: fNNLN48MSGSLiqwIFywCuxH2Dk_IxDbaP0kYhg_IPrg
+id: seven_civicrm_subtheme_content
+theme: seven_civicrm_subtheme
+region: content
+weight: -6
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }
