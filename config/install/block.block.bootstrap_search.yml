@@ -1,0 +1,29 @@
+uuid: b4e96951-25e1-4aed-9329-780e3759fbaf
+langcode: en
+status: true
+dependencies:
+  module:
+    - search
+    - system
+  theme:
+    - bootstrap
+_core:
+  default_config_hash: F3d5hyAFunLh4PhGviJF019fHn1Z3_zy5gzsQ0tX1K0
+id: bootstrap_search
+theme: bootstrap
+region: sidebar_first
+weight: -7
+provider: null
+plugin: search_form_block
+settings:
+  id: search_form_block
+  label: Search
+  provider: search
+  label_display: visible
+  page_id: ''
+visibility:
+  request_path:
+    id: request_path
+    pages: '/civicrm*'
+    negate: true
+    context_mapping: {  }
